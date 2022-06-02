@@ -1,0 +1,18 @@
+[package]
+name = "psychonaut_terminal"
+authors = ["Ira Gati"]
+description = "psychonaut_terminal is a terminal application which lets you research psychoactive substances."
+categories = ["Terminal", "CLI", "Application", "Psychonaut"]
+repository = "https://github.com/diinki/psychonaut_terminal"
+homepage = "https://projects.imp.works/terminal_psychonautica"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+tui = "0.18.0"
+psychonaut_wiki_api = "0.1.0"
+
